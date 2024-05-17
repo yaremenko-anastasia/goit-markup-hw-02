@@ -27,9 +27,7 @@ color: #4d5ae5
     color: #2e2f42;
 }
 
-.navigator-studio,
-.navigator-portfolio,
-.navigator-contacts {
+.navigator-list {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
