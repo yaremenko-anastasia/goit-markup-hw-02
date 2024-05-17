@@ -67,6 +67,7 @@ color: #ffffff;
 }
 
 .btn-title {
+cursor: pointer;
 background-color: #4D5AE5;
 width: 169px;
 height: 56px;
@@ -95,7 +96,6 @@ color: #2e2f42;
 }
 
 .text-features {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
