@@ -1,7 +1,7 @@
 body {
     font-weight: 400;
     font-family: "Roboto", sans-serif;
-    color: black;
+    color:  #434455;
     background-color: #ffff;
 }
 
@@ -13,22 +13,18 @@ a {
     text-decoration: none;
 }
 
-.title-web {
+.logo {
 font-family: "Raleway", sans-serif;
 font-size: 18px;
-line-height: 1.16;
+font-weight: 700;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;
+color: #4d5ae5
 }
 
-.title-studio {
-font-family: "Raleway", sans-serif;
-font-size: 18px;
-line-height: 1.16;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #2e2f42;
+.logo-studio {
+    color: #2e2f42;
 }
 
 .navigator {
@@ -43,18 +39,24 @@ a:hover,
 a:focus                                        
 {
     color: #404BBF;
-    
 }
 
 
 .adresa {
     font-style: normal;
+}
+
+.adresa-phone,
+.adresa-email {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455
 }
 
+.features {
+    color: #2e2f42;
+}
 
 .title-main {
 background-color: #434455;
@@ -69,9 +71,6 @@ color: #ffffff;
 .btn-title {
 cursor: pointer;
 background-color: #4D5AE5;
-width: 169px;
-height: 56px;
-border: none;
 font-family: "Roboto", sans-serif;  
 font-weight: 500;
 font-size: 16px;
@@ -84,7 +83,6 @@ color: #fff
 .btn-title:focus                                            
 {
     background-color: #404BBF;
-    transition: 0.7s;
 }
 
 .title-features {
@@ -92,7 +90,6 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2e2f42;
 }
 
 .text-features {
@@ -103,12 +100,21 @@ color: #434455;
 }
 
 .titles {
+text-transform: capitalize;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-back {
+    background-color: #FFFFFF;
 }
 
 .name-team {
@@ -133,6 +139,16 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.portfolio-title {
+text-transform: capitalize;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
 color: #2e2f42;
 }
 
@@ -165,3 +181,10 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 
+.page-footer {
+    background-color:  #2e2f42;
+}
+
+.logo-studio-footer {
+    color: #f4f4fd;
+}
