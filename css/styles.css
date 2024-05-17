@@ -39,6 +39,14 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
+a:hover, 
+a:focus                                        
+{
+    color: #404BBF;
+    
+}
+
+
 .adresa {
     font-style: normal;
     font-size: 16px;
@@ -46,6 +54,7 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #434455
 }
+
 
 .title-main {
 background-color: #434455;
@@ -61,13 +70,20 @@ color: #ffffff;
 background-color: #4D5AE5;
 width: 169px;
 height: 56px;
+border: none;
 font-family: "Roboto", sans-serif;  
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff
+}
 
+.btn-title:hover,
+.btn-title:focus                                            
+{
+    background-color: #404BBF;
+    transition: 0.7s;
 }
 
 .title-features {
@@ -148,3 +164,4 @@ clip-path: inset(100%);
 clip: rect(0 0 0 0);
 overflow: hidden;
 }
+
