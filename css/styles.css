@@ -46,8 +46,7 @@ a:focus
     font-style: normal;
 }
 
-.adresa-phone,
-.adresa-email {
+.adresa-list {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
