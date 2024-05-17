@@ -1,4 +1,5 @@
 body {
+    font-weight: 400;
     font-family: "Roboto", sans-serif;
     color: black;
     background-color: #ffff;
@@ -31,6 +32,7 @@ color: #2e2f42;
 }
 
 .navigator {
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -38,9 +40,93 @@ color: #2e2f42;
 }
 
 .adresa {
-    font-weight: 400;
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #434455
+}
+
+.title-main {
+background-color: #434455;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #ffffff;
+}
+
+.btn-title {
+font-family: "Roboto", sans-serif;  
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff
+}
+
+.title-features {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.text-features {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.titles {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+.name-team {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+.about-team {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+}
+
+.title-portfolio {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.about-portfolio {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.footer-text {
+    background-color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
